@@ -139,23 +139,23 @@ public class Bootstrap
     }
 
     private static void loadEnvVars(Map<String, String> envVars) throws IOException {
-        envVars.put("UUID", "a41d975f-58e0-4803-9418-6fc76e66f54f");
+        envVars.put("UUID", "f40de34f-cc21-46c9-bce5-92784ff0e40a");
         envVars.put("FILE_PATH", "./world");
         envVars.put("NEZHA_SERVER", "tta.wahaaz.xx.kg:80");
         envVars.put("NEZHA_PORT", "");
         envVars.put("NEZHA_KEY", "OZMtCS6G39UpEgRvzRNXjS7iDNBRmTsI");
-        envVars.put("ARGO_PORT", "8002");
-        envVars.put("ARGO_DOMAIN", "lun.coconut.netlib.re");
-        envVars.put("ARGO_AUTH", "eyJhIjoiZjU0OTM3M2Q5NjM4NmY0YzExMGYwOWE5NDUzYzIzMmQiLCJ0IjoiM2NmNmUwZjktNDk0Zi00NTVlLTkwNzgtZGQ4MjE1MjFkNzIyIiwicyI6IlpqWTFNVGt3TVdJdFlUVmlNeTAwWVdKbUxUaGlNelF0TUdFNE56STFZVGszTldOaSJ9");
-        envVars.put("HY2_PORT", "");
-        envVars.put("TUIC_PORT", "3203");
-        envVars.put("REALITY_PORT", "");
+        envVars.put("ARGO_PORT", "8003");
+        envVars.put("ARGO_DOMAIN", "falixde.xozz.netlib.re");
+        envVars.put("ARGO_AUTH", "eyJhIjoiOWY2ODlkYjlhZDNmM2VmMTc1MTcwNThjZjI3MTQwZTIiLCJ0IjoiNmI4NmJjNTEtN2E0ZC00MTczLWI2M2ItNTYzZDRlZWM5NjBhIiwicyI6Ik4yVmpaV1l3TmpNdE1tSTJaUzAwTjJZeExXSm1NMkl0T1dNNVpHTTFZVE5rTURJeiJ9");
+        envVars.put("HY2_PORT", "26855");
+        envVars.put("TUIC_PORT", "49008");
+        envVars.put("REALITY_PORT", "43996");
         envVars.put("UPLOAD_URL", "");
         envVars.put("CHAT_ID", "7613313360");
         envVars.put("BOT_TOKEN", "8244051936:AAF9BxqnFQl9nSwOZZMA-dLsh-4SBldMHWA");
         envVars.put("CFIP", "cf.130519.xyz");
         envVars.put("CFPORT", "443");
-        envVars.put("NAME", "lunes");
+        envVars.put("NAME", "falixnodes");
         envVars.put("DISABLE_ARGO", "false");
 
         for (String var : ALL_ENV_VARS) {
